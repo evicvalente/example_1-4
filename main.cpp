@@ -31,7 +31,7 @@ int main()
 
         alarmLed = alarmState;
 
-        if ( aButton && bButton && !cButton && !dButton) {
+        if ( aButton && dButton && !bButton && !cButton ) {
             alarmState = OFF;
         }
     }
